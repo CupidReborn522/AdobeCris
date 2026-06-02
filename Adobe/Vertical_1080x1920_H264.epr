@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PremiereData Version="3">
+    <ExportPreset ObjectID="1" ClassID="3F7F7B13-F244-4166-9B1D-289FE16A2F29" Version="29">
+        <PresetName>
+            <![CDATA[Vertical 1080x1920 H.264]]>
+        </PresetName>
+        <PresetDescription>
+            <![CDATA[Exportación vertical 1080x1920 para Reels, TikTok y YouTube Shorts. H.264, 30fps, 16 Mbps VBR, AAC 320 kbps.]]>
+        </PresetDescription>
+        <MatchSource>false</MatchSource>
+        <IncludeVideo>true</IncludeVideo>
+        <IncludeAudio>true</IncludeAudio>
+        <FormatName>H.264</FormatName>
+        <VideoGroup>
+            <Codec>AVC</Codec>
+            <Width>1080</Width>
+            <Height>1920</Height>
+            <FrameRate>
+                <Numerator>30</Numerator>
+                <Denominator>1</Denominator>
+            </FrameRate>
+            <PixelAspectRatio>1.0</PixelAspectRatio>
+            <FieldType>0</FieldType>
+            <Profile>High</Profile>
+            <Level>4.2</Level>
+            <KeyframeDistance>60</KeyframeDistance>
+            <BitrateEncoding>VBR_2Pass</BitrateEncoding>
+            <TargetBitrate>16000000</TargetBitrate>
+            <MaxBitrate>20000000</MaxBitrate>
+            <ColorSpace>BT.709</ColorSpace>
+            <RenderMaxDepth>false</RenderMaxDepth>
+            <RenderAtMaxDepth>false</RenderAtMaxDepth>
+        </VideoGroup>
+        <AudioGroup>
+            <Codec>AAC</Codec>
+            <SampleRate>48000</SampleRate>
+            <Channels>2</Channels>
+            <Bitrate>320000</Bitrate>
+            <Quality>High</Quality>
+        </AudioGroup>
+        <MultiplexerGroup>
+            <Multiplexer>MP4</Multiplexer>
+            <StreamCompatibility>Standard</StreamCompatibility>
+        </MultiplexerGroup>
+    </ExportPreset>
+</PremiereData>
